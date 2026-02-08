@@ -1,4 +1,4 @@
-# itws1100-tieub
+# Lab 1: Setup
 
 ### user:
 rplotka

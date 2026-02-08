@@ -1,2 +1,2 @@
-# Lab 2
+# Lab 2: HTML & CSS
 I thought this lab was a good refresher on HTML and CSS, as I haven't done web development in a while.
