@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: white;
+}
+
 body {
     font-family: "Segoe UI", "Helvetica Neue", Roboto, Arial, sans-serif;
     line-height: 1.6;
