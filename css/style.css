@@ -210,6 +210,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.back + h1 {
+    margin-top: 0;
+}
+
 .screenshotGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
