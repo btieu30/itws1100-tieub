@@ -11,36 +11,59 @@ body {
     color: black;
 }
 
-.title {
+header {
     background-color: white;
-    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+    padding: 1.2rem 2rem 0.5rem;
     font-size: 1.2rem;
     font-weight: bold;
-    border-bottom: 1px solid #ddd;
     text-align: center;
 }
 
 nav {
-    background-color: white;
-    border-bottom: 2px solid #e0e0e0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 2rem;
-    padding: 0.75rem 2rem;
-    justify-content: center;
 }
 
 nav a {
+    position: relative;
     text-decoration: none;
     color: #222;
     font-weight: 500;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #0066cc;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #0066cc;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 h1 {
