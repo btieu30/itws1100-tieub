@@ -66,6 +66,11 @@ nav a:hover::after {
     width: 100%;
 }
 
+nav a.active {
+    font-weight: bold;
+    color: #0066cc;
+}
+
 h1 {
     margin: 2rem 2rem 1rem;
 }
