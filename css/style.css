@@ -28,6 +28,15 @@ header {
     color: white;
 }
 
+.title a {
+    color: white;
+    text-decoration: none;
+}
+
+.title a:hover {
+    color:#e0e0e0;
+}
+
 nav {
     display: flex;
     justify-content: center;
