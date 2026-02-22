@@ -179,3 +179,15 @@ footer p {
 .icons a:hover img {
     opacity: 0.5;
 }
+
+.externalLink {
+    display: inline-block;
+    margin: 0 2rem 1.5rem;
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.externalLink:hover {
+    text-decoration: underline;
+}
