@@ -180,7 +180,7 @@ footer p {
     opacity: 0.5;
 }
 
-.externalLink {
+.spotify {
     display: inline-block;
     margin: 0 2rem 1.5rem;
     text-decoration: none;
@@ -188,6 +188,6 @@ footer p {
     font-weight: bold;
 }
 
-.externalLink:hover {
+.spotify:hover {
     text-decoration: underline;
 }
