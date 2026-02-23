@@ -15,7 +15,7 @@
 
     <entry>
         <title>Lab 1 (VM Setup)</title>
-        <id>http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab01/index.html</id>
+        <id>urn:uuid:a6c1401b-18ca-48f5-bf22-1086e687da89</id>
         <link href="http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab01/index.html" />
         <updated>2026-01-22T16:00:00Z</updated>
         <summary type="text">
@@ -28,7 +28,7 @@
 
     <entry>
         <title>Lab 2 (HTML Resume)</title>
-        <id>http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab02/index.html</id>
+        <id>urn:uuid:0e423f51-1006-4f66-9a31-ac12e0abda0a</id>
         <link href="http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab02/index.html" />
         <updated>2026-01-29T16:00:00Z</updated>
         <summary type="text">
@@ -41,7 +41,7 @@
 
     <entry>
         <title>Lab 3 (Personal Website)</title>
-        <id>http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab03/index.html</id>
+        <id>urn:uuid:7fc64035-549a-42a3-868f-76f097d6dbac</id>
         <link href="http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab03/index.html" />
         <updated>2026-02-05T16:00:00Z</updated>
         <summary type="text">
@@ -58,7 +58,7 @@
 
     <entry>
         <title>Lab 4 (RSS and Atom Feed)</title>
-        <id>http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab04/index.html</id>
+        <id>urn:uuid:f76ce48f-e2cc-4997-9337-3ac0da11e6f5</id>
         <link href="http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab04/index.html" />
         <updated>2026-02-19T16:00:00Z</updated>
         <summary type="text">
