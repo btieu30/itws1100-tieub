@@ -5,6 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Brianna Tieu | ITWS 1100</title>
         <link rel="stylesheet" href="../../css/style.css">
+
+        <link rel="alternate" type="application/rss+xml"
+              title="ITWS 1100 Labs RSS Feed" 
+              href="rss.xml">
+        
+        <link rel="alternate" type="application/atom+xml"
+                title="ITWS 1100 Labs Atom Feed"
+                href="atom.xml">
+
     </head>
 
     <body>
@@ -18,33 +27,30 @@
 
         <a class="back" href="../index.html">Back to all Labs</a>
 
-        <h1>Lab 3: Build Your Personal Website</h1>
+        <h1>Lab 4: RSS and Atom Feed</h1>
         <p>
-          The goal of this lab was to create this site! We were 
-          supposed to design and build a website to hold our work
-          for this class with a required landing page, labs
-          landing page, and a page for each lab completed so far.
+          The goal of this lab was to create RSS and Atom feeds for the
+          class, including links to our labs. The RSS and Atom feeds
+          required specific items and styling to receive full credit.
         </p>
 
         <h2>Approach</h2>
         <p>
-          First, we were told to develop site maps to give us an
-          idea of how we wanted the structure to be. Then, I used
-          the site map to create a basic skeleton of the pages and 
-          referenced the rubric to ensure I was meeting all the 
-          requirements and had to proper repository structure. After 
-          that, I filled in the contents of the pages and added styling. 
-          I developed a landing page, labs landing page, and a page for 
-          each lab so far. I also made sure to push to GitHub and 
-          pull from the VM to check that the structure of my site was 
-          correct and that the pages were working as expected.
+          I created both an RSS 2.0 feed and an Atom 1.0 feed containing
+          links to my completed labs. Each feed includes the required elements
+          such as channel/feed metadata and items. I validated both feeds and
+          added a CSS stylesheet using the XML processing instruction to 
+          add basic styling when viewed in the browser. I also made sure 
+          to use a UUID generator for the Atom feed entry IDs to ensure 
+          they were unique and properly formatted. Finally, I linked 
+          both feeds on my homepage and below on this page.
         </p>
 
         <div class="labLinks">
             <ul>
-                <li><a href="../../index.html">View Resume Site</a></li>
-                <li><a href="sitemap.pdf">View Sitemap</a></li>
-             </ul>
+                <li><a href="rss.xml">View RSS feed</a></li>
+                <li><a href="atom.xml">View Atom feed</a></li>
+            </ul>
         </div>
 
         <footer>

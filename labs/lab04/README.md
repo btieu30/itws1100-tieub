@@ -1,8 +1,4 @@
-# itws1100-tieub
-Brianna Tieu, ITWS 1100
-
 [Link to Personal Website](http://tieubrpi.eastus.cloudapp.azure.com/iit/index.html)
-
 [Github](https://github.com/btieu30/itws1100-tieub)
 
 ### Lab 4: RSS and Atom Feeds
@@ -13,7 +9,4 @@ and straight-forward, as it is similar to HTML. But,
 the dates were giving me trouble as I used the wrong weekday for one of the dates and I was wondering why 
 my feed was invalid. After a few minutes of debugging,
 I realized my mistake and was able to get both feeds to
-validate immediately. I also used an online UUID generator to fill in the id tags for my atom.xml.
-
-[UUID generator](https://www.uuidgenerator.net/)
-[XML Validator](https://validator.w3.org/feed/)
+validate immediately.

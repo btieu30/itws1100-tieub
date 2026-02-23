@@ -134,7 +134,7 @@ p {
 
 .back {
     display: inline-block;
-    margin: 1.5rem 2rem;
+    margin: 1.5rem 2rem 0rem 2rem;
     text-decoration: none;
     color: #0066cc;
     font-weight: bold;
@@ -180,7 +180,7 @@ footer p {
     opacity: 0.5;
 }
 
-.spotify {
+.links {
     display: inline-block;
     margin: 0 2rem 1.5rem;
     text-decoration: none;
@@ -188,6 +188,24 @@ footer p {
     font-weight: bold;
 }
 
-.spotify:hover {
+.links:hover {
+    text-decoration: underline;
+}
+
+.feeds {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    margin-left: 2rem;
+}
+
+.feeds a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.feeds a:hover {
     text-decoration: underline;
 }
