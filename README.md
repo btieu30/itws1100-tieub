@@ -1,6 +1,9 @@
 # itws1100-tieub
 Brianna Tieu, ITWS 1100
-This is my repository with all my coursework for ITWS-1100.
+
+[Link to Personal Website](http://tieubrpi.eastus.cloudapp.azure.com/iit/index.html)
+
+[Github](https://github.com/btieu30/itws1100-tieub)
 
 ### Lab 3B – AI Enhancement
 Brianna Tieu
