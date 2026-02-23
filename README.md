@@ -5,8 +5,12 @@ Brianna Tieu, ITWS 1100
 
 [Github](https://github.com/btieu30/itws1100-tieub)
 
-### Lab 3: Personal Website
-I thought this lab was fun! I enjoyed making a website as
-I haven't played around with web development in a while
-and it felt nice to have my designs from the site map
-come to life. I removed all the basic CSS styling that comes with the HTML elements because I think it removed another level of complexity. I also took inspiration from many sites where the contact section acts as the header and used icons for a cleaner look. I also made sure to pick images for the icons that were consistent in terms of color and shape to make the site more appealing. Lastly, I chose to use a card layout for the labs instead of having a bulleted list so that it be more appealing for users and I thought this would be the best way to display a small description for each lab so users are aware what they are clicking into.
+### Lab 4: RSS and Atom Feeds
+I thought this lab was interesting, as I never played
+around with XML before and this was actually my time 
+using it! I found XML syntax to be interesting 
+and straight-forward, as it is similar to HTML. But,
+the dates were giving me trouble as I used the wrong weekday for one of the dates and I was wondering why 
+my feed was invalid. After a few minutes of debugging,
+I realized my mistake and was able to get both feeds to
+validate immediately.
