@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="atom.css"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>ITWS-1100 Lab Feed - Brianna Tieu</title>
+    <id>http://tieubrpi.eastus.cloudapp.azure.com/iit/index.html</id>
+    <updated>2026-02-22T18:00:00Z</updated>
+    
+    <author>
+        <name>Brianna Tieu</name>
+    </author>
+
+    <link href="http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab04/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="http://tieubrpi.eastus.cloudapp.azure.com/iit/index.html" />
+
+    <entry>
+        <title>Lab 1 (VM Setup)</title>
+        <id>http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab01/index.html</id>
+        <link href="http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab01/index.html" />
+        <updated>2026-01-22T16:00:00Z</updated>
+        <summary type="text">
+            This lab involved setting up our virtual machines and 
+            GitHub for the class. The process involved following 
+            directions on the given documentation to set up our 
+            environments properly for the class.
+        </summary>
+    </entry>
+
+    <entry>
+        <title>Lab 2 (HTML Resume)</title>
+        <id>http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab02/index.html</id>
+        <link href="http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab02/index.html" />
+        <updated>2026-01-29T16:00:00Z</updated>
+        <summary type="text">
+            This lab involved creating a basic resume using HTML and 
+            CSS. We first had to design our resumes and transform 
+            them into proper HTML and CSS. We also had to deploy
+            this to our virtual machines and GitHub.
+        </summary>
+    </entry>
+
+    <entry>
+        <title>Lab 3 (Personal Website)</title>
+        <id>http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab03/index.html</id>
+        <link href="http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab03/index.html" />
+        <updated>2026-02-05T16:00:00Z</updated>
+        <summary type="text">
+            This lab involved creating an actual website for
+            the course, with our labs and other basic content 
+            about ourselves. First, I created a site map for 
+            this lab, which involved planning for how I 
+            wanted to site to look, which pages direct to 
+            what, and etc. Then, we began building the website
+            using HTML and CSS, and deploying it to our virtual
+            machines and GitHub.
+        </summary>
+    </entry>
+
+    <entry>
+        <title>Lab 4 (RSS and Atom Feed)</title>
+        <id>http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab04/index.html</id>
+        <link href="http://tieubrpi.eastus.cloudapp.azure.com/iit/labs/lab04/index.html" />
+        <updated>2026-02-19T16:00:00Z</updated>
+        <summary type="text">
+            This lab involved building RSS and Atom feeds for the
+            class, including links to our labs. The RSS and Atom feeds
+            required specific items and styling to receive full credit.
+        </summary>
+    </entry>
+</feed>

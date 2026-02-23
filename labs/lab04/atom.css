@@ -1,0 +1,42 @@
+feed {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f6f8;
+    padding: 20px;
+}
+
+feed > title {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+entry {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+entry title {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1e3a8a;
+}
+
+summary {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+}
+
+updated, link {
+    display: block;
+    color: #666;
+    font-size: 1rem;
+}
