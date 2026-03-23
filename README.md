@@ -12,4 +12,4 @@ I thought this lab was interesting, as I haven't had much previous experience wi
 
 ### Problem 5 explanation:
 Initially, the newly added items to the list didn't respond to the
-click events because the event handler was only attached to elements that existed when the page was loaded. It was because jQuery's .click() method doesn't automatically apply to the newly created elements. I fixed this by using `.on("click", "li")`, which is attached to the `<ul>` instead of <li>`, to allow all the list elements to respond.
+click events because the event handler was only attached to elements that existed when the page was loaded. It was because jQuery's .click() method doesn't automatically apply to the newly created elements. I fixed this by using `.on("click", "li")`, which is attached to the `<ul>` instead of `<li>`, to allow all the list elements to respond.
