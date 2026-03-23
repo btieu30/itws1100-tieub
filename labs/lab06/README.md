@@ -1,5 +1,9 @@
 # Lab 6
 
+[Link to Personal Website](https://tieubrpi.eastus.cloudapp.azure.com/iit/index.html)
+[Link to labs landing page](https://tieubrpi.eastus.cloudapp.azure.com/iit/labs/index.html)
+[Github](https://github.com/btieu30/itws1100-tieub)
+
 ### Problem 5 explanation:
 Initially, the newly added items to the list didn't respond to the
 click events because the event handler was only attached to elements that existed when the page was loaded. It was because jQuery's .click() method doesn't automatically apply to the newly created elements. I fixed this by using `.on("click", "li")`, which is attached to the `<ul>` instead of <li>`, to allow all the list elements to respond.
