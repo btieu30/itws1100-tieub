@@ -1,7 +1,9 @@
 # Lab 6
 
 [Link to Personal Website](https://tieubrpi.eastus.cloudapp.azure.com/iit/index.html)
+
 [Link to labs landing page](https://tieubrpi.eastus.cloudapp.azure.com/iit/labs/index.html)
+
 [Github](https://github.com/btieu30/itws1100-tieub)
 
 ### Problem 5 explanation:

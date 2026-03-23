@@ -2,10 +2,12 @@
 Brianna Tieu, ITWS 1100
 
 [Link to Personal Website](https://tieubrpi.eastus.cloudapp.azure.com/iit/index.html)
+
 [Link to labs landing page](https://tieubrpi.eastus.cloudapp.azure.com/iit/labs/index.html)
+
 [Github](https://github.com/btieu30/itws1100-tieub)
 
-### Lab 6: jQuery:
+### Lab 6: jQuery
 I thought this lab was interesting, as I haven't had much previous experience with jQuery. I had to do a lot of external research on jQuery to get it done and struggled specifically with the preventDefault() function, which prevent's the default behavior from occurring for an element. Even though this behavior isn't noticeable on the page since it is short, it can change animations or user experiences on longer pages.
 
 ### Problem 5 explanation:
