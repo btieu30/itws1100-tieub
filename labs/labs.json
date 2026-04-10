@@ -1,0 +1,72 @@
+{
+    "siteTitle": "Brianna Tieu | ITWS 1100",
+    "siteDescription": "ITWS 1100 Labs for Brianna Tieu",
+    "siteLink": "http://tieubrpi.eastus.cloudapp.azure.com/iit",
+    "rssTitle": "Brianna Tieu | ITWS 1100 Labs RSS Feed",
+    "menuItems": [
+        {
+            "id": "lab01",
+            "title": "Lab 1",
+            "subtitle": "VM, GitHub and Azure Setup",
+            "description": "Setting up our virtual machines on Azure and GitHub, deploying a simple webpage to the VM.",
+            "link": "lab01/index.html",
+            "date": "2026-02-27"
+        },
+        {
+            "id": "lab02",
+            "title": "Lab 2",
+            "subtitle": "HTML and CSS",
+            "description": "Creating a resume webpage using HTML and CSS.",
+            "link": "lab02/index.html",
+            "date": "2026-02-05"
+        },
+        {
+            "id": "lab03",
+            "title": "Lab 3",
+            "subtitle": "Personal Website",
+            "description": "Building a personal website using HTML, CSS, and JavaScript.",
+            "link": "lab03/index.html",
+            "date": "2026-02-08"
+        },
+        {
+            "id": "lab04",
+            "title": "Lab 4",
+            "subtitle": "RSS and Atom Feeds",
+            "description": "Creating an RSS and Atom feed for our personal website, with entries for each lab.",
+            "link": "lab04/index.html",
+            "date": "2026-02-22"
+        },
+        {
+            "id": "lab05",
+            "title": "Lab 5",
+            "subtitle": "JavaScript",
+            "description": "Implementing JavaScript to handle user interactions on our personal website.",
+            "link": "lab05/index.html",
+            "date": "2026-03-16"
+        },
+        {
+            "id": "lab06",
+            "title": "Lab 6",
+            "subtitle": "jQuery",
+            "description": "Using jQuery to make the site interactive with animations and event handling.",
+            "link": "lab06/index.html",
+            "date": "2026-03-22"
+        },
+        {
+            "id": "lab07",
+            "title": "Lab 7",
+            "subtitle": "Project Mockups",
+            "description": "Creating mockups for the final project using Figma.",
+            "link": "lab07/index.html",
+            "date": "2026-03-26"
+        },
+        {
+            "id": "lab08",
+            "title": "Lab 8",
+            "subtitle": "JS, JSON and AJAX",
+            "description": "Loading lab cards dynamically from a JSON file using AJAX and jQuery.",
+            "link": "lab08/index.html",
+            "date": "2026-04-10"
+        }
+    ]
+}

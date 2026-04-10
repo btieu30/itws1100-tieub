@@ -84,6 +84,7 @@ p {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
+
 .banner p {
     font-size: 1rem;
 }
@@ -102,6 +103,12 @@ p {
     border-radius: 6px;
     padding: 1.5rem;
     text-align: center;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.labCard:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
 }
 
 .labCard h2 {
@@ -208,4 +215,86 @@ footer p {
 
 .feeds a:hover {
     text-decoration: underline;
+}
+
+#labGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.errorMsg {
+    color: #c0392b;
+    background: #fdecea;
+    border: 1px solid #f1a9a0;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    margin: 0 2rem;
+}
+
+#rssSection {
+    margin: 1rem 2rem 2rem;
+    padding: 1.2rem 1.4rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: white;
+}
+
+#rssSection h2 {
+    margin: 0 0 0.5rem;
+}
+
+#rssSection p {
+    margin: 0 0 0.75rem;
+}
+
+.rssDownloadBtn {
+    display: inline-block;
+    padding: 8px 18px;
+    background: #ee802f;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+}
+
+.rssDownloadBtn:hover {
+    background: #c06010;
+    color: white;
+}
+
+.ui-tooltip {
+    font-size: 0.82rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+#rssDisplay {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #007bff;
+    color: #333;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+    border-radius: 5px;
+}
+
+.xml-content {
+    white-space: pre-wrap;
 }
