@@ -15,6 +15,7 @@
 <?php
   $dbOk = false;
 
+  //replace the empty string with your database password
   @ $db = new mysqli('localhost', 'root', '', 'iit');
 
   if ($db->connect_error) {
