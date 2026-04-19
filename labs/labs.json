@@ -67,6 +67,14 @@
             "description": "Loading lab cards dynamically from a JSON file using AJAX and jQuery.",
             "link": "lab08/index.html",
             "date": "2026-04-10"
+        },
+        {
+            "id": "lab09",
+            "title": "Lab 9",
+            "subtitle": "Databases & SQL",
+            "description": "Creating tables and inserting data into a MySQL db, then displaying with PHP",
+            "link": "lab09/index.php",
+            "date": "2026-04-19"
         }
     ]
 }
