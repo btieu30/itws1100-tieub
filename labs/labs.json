@@ -10,7 +10,8 @@
             "subtitle": "VM, GitHub and Azure Setup",
             "description": "Setting up our virtual machines on Azure and GitHub, deploying a simple webpage to the VM.",
             "link": "lab01/index.html",
-            "date": "2026-02-27"
+            "date": "2026-02-27",
+            "secure": true
         },
         {
             "id": "lab02",
@@ -18,7 +19,8 @@
             "subtitle": "HTML and CSS",
             "description": "Creating a resume webpage using HTML and CSS.",
             "link": "lab02/index.html",
-            "date": "2026-02-05"
+            "date": "2026-02-05",
+            "secure": false
         },
         {
             "id": "lab03",
@@ -26,7 +28,8 @@
             "subtitle": "Personal Website",
             "description": "Building a personal website using HTML, CSS, and JavaScript.",
             "link": "lab03/index.html",
-            "date": "2026-02-08"
+            "date": "2026-02-08",
+            "secure": false
         },
         {
             "id": "lab04",
@@ -34,7 +37,8 @@
             "subtitle": "RSS and Atom Feeds",
             "description": "Creating an RSS and Atom feed for our personal website, with entries for each lab.",
             "link": "lab04/index.html",
-            "date": "2026-02-22"
+            "date": "2026-02-22",
+            "secure": false
         },
         {
             "id": "lab05",
@@ -42,7 +46,8 @@
             "subtitle": "JavaScript",
             "description": "Implementing JavaScript to handle user interactions on our personal website.",
             "link": "lab05/index.html",
-            "date": "2026-03-16"
+            "date": "2026-03-16",
+            "secure": false
         },
         {
             "id": "lab06",
@@ -50,7 +55,8 @@
             "subtitle": "jQuery",
             "description": "Using jQuery to make the site interactive with animations and event handling.",
             "link": "lab06/index.html",
-            "date": "2026-03-22"
+            "date": "2026-03-22",
+            "secure": false
         },
         {
             "id": "lab07",
@@ -58,7 +64,8 @@
             "subtitle": "Project Mockups",
             "description": "Creating mockups for the final project using Figma.",
             "link": "lab07/index.html",
-            "date": "2026-03-26"
+            "date": "2026-03-26",
+            "secure": false
         },
         {
             "id": "lab08",
@@ -66,7 +73,8 @@
             "subtitle": "JS, JSON and AJAX",
             "description": "Loading lab cards dynamically from a JSON file using AJAX and jQuery.",
             "link": "lab08/index.html",
-            "date": "2026-04-10"
+            "date": "2026-04-10",
+            "secure": false
         },
         {
             "id": "lab09",
@@ -74,7 +82,8 @@
             "subtitle": "Databases & SQL",
             "description": "Creating tables and inserting data into a MySQL db, then displaying with PHP",
             "link": "lab09/index.php",
-            "date": "2026-04-19"
+            "date": "2026-04-19",
+            "secure": true
         }, 
         {
             "id": "lab10",
@@ -82,7 +91,8 @@
             "subtitle": "Bringing it All Home",
             "description": "Deploying our personal websites to Azure and making final adjustments.",
             "link": "lab10/index.php",
-            "date": "2026-04-26"
+            "date": "2026-04-26",
+            "secure": false
         }
     ]
 }
