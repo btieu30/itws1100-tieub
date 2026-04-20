@@ -8,7 +8,8 @@ $(document).ready(function() {
         //for each item in the JSON, create a new card
         $.each(items, function(index, lab) {
             //creating the card elements
-            var titleBlock = $("<h2>").text(lab.title + ": " + lab.subtitle);
+            var lockIcon = lab.secure ? "🔒 " : "";
+            var titleBlock = $("<h2>").text(lockIcon + lab.title + ": " + lab.subtitle);
             var description = $("<p>").text(lab.description);
             var link = $("<a>").attr("href", lab.link).addClass("labLink").text("View Lab");
             var card = $("<div>").addClass("labCard").attr("id", lab.id).append(titleBlock, description, link);
@@ -17,8 +18,21 @@ $(document).ready(function() {
 
         //formatting the date for the tooltips in jQueryUI
         $.each(items, function(index, lab) {
-            var date = new Date(lab.date + "T00:00:00").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
-            $("#" + lab.id).attr("title", "Last updated: " + date);
+            var date = new Date(lab.date + "T00:00:00").toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric"
+            });
+
+            var tooltipText = "";
+
+            if (lab.secure) {
+                tooltipText += "Password required\n";
+            }
+
+            tooltipText += "Last updated: " + date;
+
+            $("#" + lab.id).attr("title", tooltipText);
         });
 
         //adding a tooltip to each card with the dates
