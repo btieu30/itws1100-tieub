@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.messages {
+    background: #eee;
+    padding: 10px;
+    margin: 15px 0;
+    border-left: 4px solid #555;
+}
+
+.success {
+    border-left-color: green;
+}
+
+.entry {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.entry h3 {
+    margin: 0;
+}
+
+.time {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.deleteForm {
+    margin-top: 10px;
+}
+
+.deleteForm button {
+    background: #cc0000;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
